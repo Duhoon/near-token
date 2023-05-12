@@ -58,7 +58,7 @@ impl Contract {
                 icon: Some(DATA_IMAGE_SVG_NEAR_ICON.to_string()),
                 reference: None,
                 reference_hash: None,
-                decimals: 24,
+                decimals: 0,
             },
         )
     }

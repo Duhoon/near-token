@@ -8,8 +8,8 @@ node_modules
 # contract
 /contract/target/debug
 /contract/target/release
-/contract/wasm32-unknown-unknown/debug
-/contract/wasm32-unknown-unknown/release
+/contract/target/wasm32-unknown-unknown/debug
+/contract/target/wasm32-unknown-unknown/release
 
 # build
 /out
