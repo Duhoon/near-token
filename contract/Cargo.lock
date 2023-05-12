@@ -348,6 +348,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "defi"
+version = "0.0.1"
+dependencies = [
+ "near-contract-standards",
+ "near-sdk",
+ "schemars",
+]
+
+[[package]]
 name = "derive_more"
 version = "0.99.17"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -427,6 +436,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "fungible-token"
+version = "1.1.0"
+dependencies = [
+ "near-contract-standards",
+ "near-sdk",
+ "schemars",
+]
+
+[[package]]
 name = "funty"
 version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -489,7 +507,11 @@ checksum = "95505c38b4572b2d910cecb0281560f54b440a19336cbbcb27bf6ce6adc6f5a8"
 name = "hello_near"
 version = "1.0.0"
 dependencies = [
+ "defi",
+ "fungible-token",
+ "near-contract-standards",
  "near-sdk",
+ "schemars",
  "uint",
 ]
 
@@ -642,6 +664,18 @@ checksum = "71d258582a1878e6db67400b0504a5099db85718d22c2e07f747fe1706ae7150"
 dependencies = [
  "borsh",
  "serde",
+]
+
+[[package]]
+name = "near-contract-standards"
+version = "4.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7bacc932e79b26472797adfb21689294b6f90960d1570daaf1e0b682b59fcb35"
+dependencies = [
+ "near-sdk",
+ "schemars",
+ "serde",
+ "serde_json",
 ]
 
 [[package]]
