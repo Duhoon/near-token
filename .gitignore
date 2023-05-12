@@ -5,6 +5,12 @@ node_modules
 /.pnp
 .pnp.js
 
+# contract
+/contract/target/debug
+/contract/target/release
+/contract/wasm32-unknown-unknown/debug
+/contract/wasm32-unknown-unknown/release
+
 # build
 /out
 /dist
