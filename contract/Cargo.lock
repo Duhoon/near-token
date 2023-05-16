@@ -348,15 +348,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "defi"
-version = "0.0.1"
-dependencies = [
- "near-contract-standards",
- "near-sdk",
- "schemars",
-]
-
-[[package]]
 name = "derive_more"
 version = "0.99.17"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -436,15 +427,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "fungible-token"
-version = "1.1.0"
-dependencies = [
- "near-contract-standards",
- "near-sdk",
- "schemars",
-]
-
-[[package]]
 name = "funty"
 version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -483,6 +465,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "governonce"
+version = "0.1.0"
+dependencies = [
+ "near-contract-standards",
+ "near-sdk",
+ "schemars",
+]
+
+[[package]]
 name = "hashbrown"
 version = "0.11.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -507,8 +498,6 @@ checksum = "95505c38b4572b2d910cecb0281560f54b440a19336cbbcb27bf6ce6adc6f5a8"
 name = "hello_near"
 version = "1.0.0"
 dependencies = [
- "defi",
- "fungible-token",
  "near-contract-standards",
  "near-sdk",
  "schemars",
@@ -597,6 +586,16 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8f6d5ed8676d904364de097082f4e7d240b571b67989ced0240f08b7f966f940"
 dependencies = [
  "cpufeatures",
+]
+
+[[package]]
+name = "kickoffer"
+version = "0.1.0"
+dependencies = [
+ "near-contract-standards",
+ "near-sdk",
+ "serde",
+ "serde_json",
 ]
 
 [[package]]

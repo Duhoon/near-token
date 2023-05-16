@@ -14,8 +14,6 @@ schemars = "0.8.12"
 uint = { version = "0.9.3", default-features = false }
 
 [dev-dependencies]
-fungible-token = { path = "./ft" }
-defi = { path = "./test-contract-defi" }
 
 [profile.release]
 codegen-units = 1
@@ -26,4 +24,4 @@ panic = "abort"
 overflow-checks = true
 
 [workspace]
-members = ["ft","test-contract-defi"]
+members = ["kickoffer", "governance"]
