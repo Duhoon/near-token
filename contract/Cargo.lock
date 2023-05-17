@@ -244,6 +244,26 @@ dependencies = [
 ]
 
 [[package]]
+name = "community"
+version = "0.1.0"
+dependencies = [
+ "near-contract-standards",
+ "near-sdk",
+ "serde",
+ "serde_json",
+]
+
+[[package]]
+name = "content"
+version = "0.1.0"
+dependencies = [
+ "near-contract-standards",
+ "near-sdk",
+ "serde",
+ "serde_json",
+]
+
+[[package]]
 name = "convert_case"
 version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -465,15 +485,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "governonce"
-version = "0.1.0"
-dependencies = [
- "near-contract-standards",
- "near-sdk",
- "schemars",
-]
-
-[[package]]
 name = "hashbrown"
 version = "0.11.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -586,16 +597,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8f6d5ed8676d904364de097082f4e7d240b571b67989ced0240f08b7f966f940"
 dependencies = [
  "cpufeatures",
-]
-
-[[package]]
-name = "kickoffer"
-version = "0.1.0"
-dependencies = [
- "near-contract-standards",
- "near-sdk",
- "serde",
- "serde_json",
 ]
 
 [[package]]
@@ -1419,6 +1420,26 @@ name = "version_check"
 version = "0.9.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f"
+
+[[package]]
+name = "vote"
+version = "0.1.0"
+dependencies = [
+ "near-contract-standards",
+ "near-sdk",
+ "serde",
+ "serde_json",
+]
+
+[[package]]
+name = "voteController"
+version = "0.1.0"
+dependencies = [
+ "near-contract-standards",
+ "near-sdk",
+ "serde",
+ "serde_json",
+]
 
 [[package]]
 name = "wasi"

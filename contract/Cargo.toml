@@ -24,4 +24,4 @@ panic = "abort"
 overflow-checks = true
 
 [workspace]
-members = ["kickoffer", "governance"]
+members = ["community", "content", "vote", "voteController"]
